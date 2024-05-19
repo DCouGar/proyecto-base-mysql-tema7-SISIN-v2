@@ -1,0 +1,39 @@
+table {
+    margin: 0 auto;
+}
+ 
+td {
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+th {
+    text-align: center;
+    padding: 10px;
+}
+
+tbody tr:nth-child(1){
+    background-color: gold;
+}
+
+tbody tr:nth-child(2), tbody tr:nth-child(5) {
+    background-color: rebeccapurple;
+}
+
+tbody tr:nth-child(3), tbody tr:nth-child(6) {
+    background-color: red;
+}
+
+tbody tr:nth-child(4), tbody tr:nth-child(7) {
+    background-color: green;
+}
+ 
+tbody tr:hover {
+    box-shadow: 0 5px 15px rgb(0, 0, 0);
+    transform: translateY(-4px);
+}
+ 
+h1{
+    text-align: center;
+}

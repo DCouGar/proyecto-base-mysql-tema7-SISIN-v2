@@ -11,7 +11,6 @@ Vagrant.configure("2") do |config|
       sudo apt update
       sudo apt install -y nginx
       sudo apt install -y php php-mysqli
-      sudo sed -i -e 's/\\/var\\/www\\/html/\\/trabajo_tema7_SISIN/g' /etc/nginx/sites-enabled/default
       # Generar archivo SQL con los registros de los diferentes Módulos Profesionales
       echo "-- Insertar datos de ejemplo en la tabla 'horario'" > /home/vagrant/trabajo_final.sql
       echo "INSERT INTO gestion_modulos_profesionales.horario (lunes, martes, miercoles, jueves, viernes) VALUES" >> /home/vagrant/trabajo_final.sql
